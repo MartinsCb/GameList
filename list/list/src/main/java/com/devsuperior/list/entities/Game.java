@@ -66,12 +66,12 @@ public class Game {
 		this.title = title;
 	}
 	
-	public Integer getYear(Integer year) {
+	public Integer getYear() {
 		return year;
 	}
 	
-	public void setYear() {
-		this.year = year;
+	public Integer setYear() {
+		return this.year = year;
 	}
 
 	public String getGenre() {
@@ -138,6 +138,9 @@ public class Game {
 		Game other = (Game) obj;
 		return id == other.id;
 	}
+
+	
+	}
 	
 
 
@@ -145,4 +148,4 @@ public class Game {
 
 	
 
-}
+
