@@ -24,7 +24,7 @@ public class GameDTO {
 	}
 	public GameDTO(Game entity) {
 		BeanUtils.copyProperties(entity,this); // copia todos os campos somente referenciando por this 
-		
+												// obrigatoriamente usar os sets 
 	}
 	public long getId() {
 		return id;
